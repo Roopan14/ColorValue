@@ -1,0 +1,8 @@
+<resources>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="color_text_size">0sp</dimen>
+    <dimen name="widget_margin">8dp</dimen>
+    <dimen name="colorview_height">260dp</dimen>
+    <dimen name="textcolor_topmargin">30dp</dimen>
+    <dimen name="textsize">40sp</dimen>
+</resources>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.google.developer.colorvalue.CardActivity">
+    
+    <com.google.developer.colorvalue.ui.ColorView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/colorview_height"
+        android:id="@+id/colorDisplay"
+        app:show_text="false"
+        />
+
+    <TextView
+        android:id="@+id/colorname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/colorDisplay"
+        android:layout_marginTop="@dimen/textcolor_topmargin"
+        android:textSize="@dimen/textsize"
+        style="?android:textAppearanceLarge"
+        android:gravity="center_horizontal"
+        />
+
+    <TextView
+        android:id="@+id/hexname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/colorname"
+        android:gravity="center_horizontal"
+        />
+
+
+</RelativeLayout>
